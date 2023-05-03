@@ -1,0 +1,66 @@
+body {
+    background-color: #F5DEB3;
+    background-image: url("back.png");
+    background-size: contain;
+
+}
+
+h1 {
+    color: #F08080;
+    font-size: 34px;
+    font-family: 'cwTeXFangSong', serif;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 2px #434040;
+}
+
+h2 {
+    color: #B87333;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+p {
+    color: #4D1F00;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    font-size: 22px;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e474a1;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.button:hover {
+    background-color: #9b4f6d;
+}
+
+img {
+    width: 500px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/*
+ * cwTeXFangSong (Chinese Traditional) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+    font-family: 'cwTeXFangSong';
+    font-style: normal;
+    font-weight: 500;
+    src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot);
+    src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot?#iefix) format('embedded-opentype'),
+        url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.ttf) format('truetype');
+}
